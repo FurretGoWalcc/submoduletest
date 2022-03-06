@@ -38,4 +38,7 @@ From gitsubmodules man page:
            git checkout
            git reset
            
+           #God tier commands, don't tell the admin you know these
+           git submodule update --remote --rebase --recursive
+           
 
