@@ -11,7 +11,9 @@ git config --global alias.clone-all 'clone --recursive-submodules'
 git config --global alias.pull-all 'pull --recursive-submodules'
 
 From gitsubmodules man page:
-WORKFLOW FOR AN ARTIFICIALLY SPLIT REPO
+
+           WORKFLOW FOR AN ARTIFICIALLY SPLIT REPO
+
            # Enable recursion for relevant commands, such that
            # regular commands recurse into submodules by default
            git config --global submodule.recurse true
